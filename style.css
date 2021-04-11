@@ -57,8 +57,19 @@ ul{
 
 .setting{
 margin-top: 500px;
+
 }
 
 .card{
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 450px) {
+    .adjust{
+        margin-left: 50px;
+        }
+  }
+
+img{
+    background-size: inherit;
 }
