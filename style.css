@@ -62,12 +62,16 @@ margin-top: 500px;
 
 .card{
     margin-top: 2rem;
+    
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 499px) {
     .adjust{
-        margin-left: 50px;
+        /* margin-left: 50px; */
         }
+
+
+        
   }
 
 img{
