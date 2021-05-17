@@ -128,13 +128,13 @@ function displayCart() {
         Object.values(cartItems).map(item => {
 
             productContainer.innerHTML += `
-            <div class='products'>
-            <ion-icon name="close-outline"></ion-icon>
-                //  <img src="img/${item.tag}.jpg">
+            <div class='product'>
+                   <ion-icon name="close-outline"></ion-icon>
+                   <img src="img/${item.tag}.jpg">
                    <span>${item.size}</span>
                    <span>${item.name}</span>
             </div>
-            <div class="price">£${item.price},0</div>
+            <div class="price">£${item.price}</div>
 
             <div class="quantity>
                <ion-icon name="caret-up-outline"></ion-icon>
@@ -143,7 +143,7 @@ function displayCart() {
             </div>
 
             <div class="total">
-            £${item.inCart * item.price},0
+            £${item.inCart * item.price}
             </div>
             `;
 
@@ -155,7 +155,7 @@ function displayCart() {
         <div class="basketTotalContainer">
         <h4 class="basketTotalTitle"> Basket Total </h4>
         <h4 class ="basketTotal"> 
-            £${cartCost},00
+            £${cartCost}
         </h4> 
         </div>
 
