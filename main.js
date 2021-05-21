@@ -131,19 +131,25 @@ function displayCart() {
             <div class='product'>
                    <ion-icon name="close-outline"></ion-icon>
                    <img src="img/${item.tag}.jpg">
-                   <span>${item.size}</span>
-                   <span>${item.name}</span>
-            </div>
-            <div class="price">£${item.price}</div>
+                   <span class="size1">${item.size}" </span>
+                   
+                   <span class="name1">${item.name}</span>
 
-            <div class="quantity>
-               <ion-icon name="caret-up-outline"></ion-icon>
-               <span>${item.inCart}</span
-               <ion-icon name="caret-down-outline"></ion-icon>
-            </div>
+                   <div class="price1">£${item.price}</div>
+                   <ion-icon name="caret-up-outline">up</ion-icon>
+                   <span>${item.inCart}</span>
+                   <ion-icon name="caret-down-outline"></ion-icon>
+                  
+                   <span>£${item.inCart * item.price}</span>
 
-            <div class="total">
-            £${item.inCart * item.price}
+                <div class="quantity>
+                <ion-icon name="caret-up-outline"></ion-icon>
+
+                
+
+                <ion-icon name="caret-up-outline"></ion-icon>
+                
+                </div>
             </div>
             `;
 
