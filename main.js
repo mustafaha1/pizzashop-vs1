@@ -140,12 +140,12 @@ function displayCart() {
                    <span>${item.inCart}</span>
                    <ion-icon name="caret-down-outline"></ion-icon>
                   
-                   <span>£${item.inCart * item.price}</span>
+                   
 
                 <div class="quantity>
                 <ion-icon name="caret-up-outline"></ion-icon>
 
-                
+                £${item.inCart * item.price}
 
                 <ion-icon name="caret-up-outline"></ion-icon>
                 
