@@ -147,7 +147,7 @@ function displayCart() {
 
                 £${item.inCart * item.price}
 
-                <ion-icon name="caret-up-outline"></ion-icon>
+                
                 
                 </div>
             </div>
@@ -170,6 +170,11 @@ function displayCart() {
 
     }
 }
+
+// function myFunction() {
+//     var element = document.querySelector(".product");
+//     element.classList.remove("mystyle");
+//   }
 
 
 onLoadCartNumbers();
