@@ -4,6 +4,7 @@ body{
     /* background-color: rgb(162, 158, 177); */
     background-image: url(img/20210330_124244249_iOS.jpg);
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 .posi{
@@ -151,18 +152,19 @@ img{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 625px;
+    max-width: 650px;
+    background-color: blanchedalmond;
     
 }
 
 .size1 {
     width: 5%;
-    border-bottom: 1px solid lightslategray;
+    /* border-bottom: 1px solid lightslategray; */
 }
 
 .name1{
     width: 15%;
-    border-bottom: 1px solid lightslategray;
+    /* border-bottom: 1px solid lightslategray; */
     padding-top: 25;
     padding-left: 55;
     margin: 0 10px;
@@ -171,7 +173,7 @@ img{
 
 .price1{
     width: 15%;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
     display: flex;
     align-items: center;
     padding-top: 25;
@@ -181,12 +183,10 @@ img{
 }
 
 
-/* .products-container{
-    max-width: 650px;
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 50px;
-} */
+ .products{
+    width: 650px;
+    
+} 
 .product ion-icon {
     font-size: 40px;
     color: blue;
